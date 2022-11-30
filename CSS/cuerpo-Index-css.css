@@ -1,0 +1,59 @@
+/*La clase ".texto" esta en el CSS bhf-css*/
+
+		#video 			{ /*margenes del cuadro que se le pone al video*/
+		
+							width: auto; /*Se establece automatico para que pueda adactarse el recuadro al margen establecidos en el HTML*/
+							margin-top: 5%;
+							margin-bottom: 5%;
+							margin-left: 1%;
+							margin-right: 1%;
+							padding: 0%;
+							border: red 3px solid;
+							min-width: 220px;/*Para el responsive*/
+						}
+
+		.textonoticia	{/*margenes que tiene el texto*/
+							text-align: center;
+							margin-top: 1%;
+							width: auto;
+							border: blue 2px solid;
+							font-size: 80%;/*Para el responvie*/
+						}
+
+		.imagenColum	{/*margenes de la imagen que en columnas son 3*/
+							width: 92%;
+							margin-top: 5%;
+							margin-bottom: 5%;
+							margin-left: 4%;
+							margin-right: 3%;
+							border: gold 2px solid;
+							min-width: 220px;/*para el responsive*/
+						}
+
+		.columnas		{/*margenes y parametro de las columnas*/
+							float: left;
+							overflow: auto;/*Actua con el "float" y los ordena al sentido que se establece en el float*/
+							margin-left: 4%;
+							margin-right: 4%;
+							width: auto;/*Se establece el hancho automatico para que pueda ajustarce a los balores de las columnas por separados*/
+							border: black 2px solid;
+						}
+
+							.column 		{/*margenes y parametros de la clumnas*/
+												float: left;
+												width: 30%;
+												margin-left: 2%;
+												padding: 0px;/*Es obligatorio por que si no */
+												border: green 2px solid;
+												min-width: 195px;/*Para el responsive*/
+												font-size:90%;
+											}
+
+							.columH2		{/*parametros del titulo de cada columna*/ 
+												text-align: center;
+												border: red 2px solid ;
+												font-size: 90%;/*Para el responsive*/
+												
+											}
+
+/*Lo del "footer" esta en el CSS bhf-css*/

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es"><!--Establecemos el idioma de la pagína web-->
+    <head>
+      <meta charset="uTF-8"><!--Es el descodificador de Unicode ISO / Lo útilizamos en la pagina web para que pueda detectar las letras como el "ñ"-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href= "../CSS/bhf-css.css"><!--El estilo del todo el cuerpo-->
+		    <link rel="stylesheet" href= "../CSS/cuerpo-2-css.css"><!--El estilo de la pagina por individual-->
+				<title>StoricGame</title>
+        <link rel="icon" type="image/x-icon" href="../IMAGENES/Logo.jpg"><!--Este es el mini logo de la pestaña-->
+    </head>
+
+<body>
+<!--Cabecera-->
+<div class="cabecera"><!--Esto en globa la configuración de que incluye el logo - el gif - el Nombre - el Menu-->
+      
+    <div class = "header">
+        <a class ="logo" href="../HTML/StoricGame-index-es.html"><!--Redirige al Index-->
+          <img class ="img" src="../IMAGENES/logo.jpg" alt="StoricGame"> <!--Sitio donde esta la imgane--><!--Atributo "ALT" es para que aparesca el nombre que se le pone a la imagen-->
+        </a>
+        <a class="GIF" href="../HTML/StoricGame-index-es.html"><!--Redirige al Index-->
+          <img  class ="gif" src="../IMAGENES/GIF-COMECOCOS.gif" alt="StoricGame-play"> <!--Sitio donde esta la GIF--><!--Atributo "ALT" es para que aparesca el nombre que se le pone a la GIF-->
+        </a>
+        <h1 class="titulo">STORICGAME</h1><!--TITULO principal-->
+    </div>
+
+<!--MENU-->
+          <ul class="nav"><!--El contenedor de todo el menu-->
+            <li><a href="StoricGame-index-es.html">Home</a><!--Este sería la pagina Index-HOME -->
+                <ul><!--El Primer SUBMENU que sale desde el HOME-->
+                    <li><a href="StoricGame-1-es.html">Ubicaciones</a></li><!--Redirige a la pagina 1-->
+                    <li><a class="Select" href="StoricGame-2-es.html">Galeria</a></li><!--Redirige a la pagina 2, y con el select queda marcado en el sitio donde estas en la web-->
+                    <li><a href="StoricGame-3-es.html">Contacto</a></li><!--Redirige a la pagina 3-->
+                    <li><a>IDIOMA</a><!--No redirige a ninguna pagina pero su existencia es para dar paso al menu de idioma-->
+                      <ul><!--El Segundo SUBMENU que sale de IDIOMA-->
+                          <li class="zona"><a href="StoricGame-2-es.html">ESPAÑOL</a></li><!--Redirige a los HTMLs que contienen texto en español-->
+                          <li class="zona"><a href="StoricGame-2-in.html">INGLES </a></li><!--Redirige a los HTMLs que contienen texto en Ingles-->                                        
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="StoricGame-1-es.html">Ubicaciones</a></li><!--Redirige a la pagina 1-->
+            <li><a class="Select" href="StoricGame-2-es.html">Galeria</a><!--Redirige a la pagina 1, y con el select queda marcado en el sitio donde estas en la web--></li>
+            <li><a href="StoricGame-3-es.html">Contacto</a></li><!--Redirige a la pagina 3-->
+          </ul>
+</div>
+
+<!--Cuerpo-->
+      <div class = "texto"><!--Contendor de todo el cuerpo su CSS esta en bhf-css-->
+
+            <h2 class="tituloPg2">Los juegos favoritos de uno de nuestros accionistas</h2><!--Se establece un class en el titulo h2--><!--"cuerpo-2-css" "17"-->
+            
+            <div class="bordecaja"><!--Contenedor de la galeria--><!--"cuerpo-2-css" "1"-->
+
+
+               <div class="galeria"> <!--Contenedor de una imagen con su descripción--><!--"cuerpo-2-css" "27"-->
+                  <a class="foto" href="../Imagenes/fifa.jpg"><!--Class="foto" para cuadrar la imagen al contenedor y que al realizar un click le redirige a la imagen--><!--"cuerpo-2-css" "34"-->
+                     <img class="fotoGaleria" src="../Imagenes/fifa.jpg" alt="hola"><!--"class="fotoGaleria"" se establece un class para cuadrar la imagen y se indica desde donde saca la imagen, más con alt indicando el nombre que tiene--><!--"cuerpo-2-css" "50"-->
+                  </a>
+                  <div class="pie"><!--Se establece un contenedor de la descripción para poner color de fondo y margenes--><!--"cuerpo-2-css" "43"-->
+                        <p class="P">Sala de juegos de deportes</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                        <p class="P">el mejor es el fifa</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                  </div>
+               </div>
+
+
+               <div class="galeria"><!--Contenedor de una imagen con su descripción--><!--"cuerpo-2-css" "27"-->
+                  <a class="foto" href="../Imagenes/mariobros.png"><!--Class="foto" para cuadrar la imagen al contenedor y que al realizar un click le redirige a la imagen--><!--"cuerpo-2-css" "34"-->
+                     <img class="fotoGaleria" src="../Imagenes/mariobros.png" alt="mariobros"><!--"class="fotoGaleria"" se establece un class para cuadrar la imagen y se indica desde donde saca la imagen, más con alt indicando el nombre que tiene--><!--"cuerpo-2-css" "50"-->
+                  </a>
+                  <div class="pie"><!--Se establece un contenedor de la descripción para poner color de fondo y margenes--><!--"cuerpo-2-css" "43"-->
+                     <p class="P">Sala de juegos de plataformas</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                     <p class="P">Mario bross el fuckingboss</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                  </div>
+               </div>
+
+
+               <div class="galeria"><!--Contenedor de una imagen con su descripción--><!--"cuerpo-2-css" "27"-->
+                  <a class="foto" href="../Imagenes/coc.jpg"><!--Class="foto" para cuadrar la imagen al contenedor y que al realizar un click le redirige a la imagen--><!--"cuerpo-2-css" "34"-->
+                     <img class="fotoGaleria" src="../Imagenes/coc.jpg" alt="coc"><!--"class="fotoGaleria"" se establece un class para cuadrar la imagen y se indica desde donde saca la imagen, más con alt indicando el nombre que tiene--><!--"cuerpo-2-css" "50"-->
+                  </a>
+                  <div class="pie"><!--Se establece un contenedor de la descripción para poner color de fondo y margenes--><!--"cuerpo-2-css" "43"-->
+                     <p class="P">Sala de movil</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                     <p class="P">el mejor es clash of clans</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                  </div>
+               </div>
+
+
+               <div class="galeria"><!--Contenedor de una imagen con su descripción--><!--"cuerpo-2-css" "27"-->
+                  <a class="foto" href="../Imagenes/fornite.jpg"><!--Class="foto" para cuadrar la imagen al contenedor y que al realizar un click le redirige a la imagen--><!--"cuerpo-2-css" "34"-->
+                     <img class="fotoGaleria" src="../Imagenes/fornite.jpg" alt="fornite"><!--"class="fotoGaleria"" se establece un class para cuadrar la imagen y se indica desde donde saca la imagen, más con alt indicando el nombre que tiene--><!--"cuerpo-2-css" "50"-->
+                  </a>
+                  <div class="pie"><!--Se establece un contenedor de la descripción para poner color de fondo y margenes--><!--"cuerpo-2-css" "43"-->
+                     <p class="P">Sala de battle royale</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                     <p class="P">best fornite</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                  </div>
+               </div>
+
+
+               <div class="galeria"><!--Contenedor de una imagen con su descripción--><!--"cuerpo-2-css" "27"-->
+                  <a class="foto" href="../Imagenes/bo2.jpg"><!--Class="foto" para cuadrar la imagen al contenedor y que al realizar un click le redirige a la imagen--><!--"cuerpo-2-css" "34"-->
+                     <img class="fotoGaleria" src="../Imagenes/bo2.jpg" alt="bo2"><!--"class="fotoGaleria"" se establece un class para cuadrar la imagen y se indica desde donde saca la imagen, más con alt indicando el nombre que tiene--><!--"cuerpo-2-css" "50"-->
+                  </a>
+                  <div class="pie"><!--Se establece un contenedor de la descripción para poner color de fondo y margenes--><!--"cuerpo-2-css" "43"-->
+                     <p class="P">Sala de shotter</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                     <p class="P">Mejor el callof</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                  </div>
+               </div>
+
+
+               <div class="galeria"><!--Contenedor de una imagen con su descripción--><!--"cuerpo-2-css" "27"-->
+                  <a class="foto" href="../Imagenes/valorant.jpg"><!--Class="foto" para cuadrar la imagen al contenedor y que al realizar un click le redirige a la imagen--><!--"cuerpo-2-css" "34"-->
+                     <img class="fotoGaleria" src="../Imagenes/valorant.jpg" alt="Valorant"><!--"class="fotoGaleria"" se establece un class para cuadrar la imagen y se indica desde donde saca la imagen, más con alt indicando el nombre que tiene--><!--"cuerpo-2-css" "50"-->
+                  </a>
+                  <div class="pie"><!--Se establece un contenedor de la descripción para poner color de fondo y margenes--><!--"cuerpo-2-css" "43"-->
+                     <p class="P">Sala de Tactital shotter</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                     <p class="P">Empezando con el valorant   </p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                  </div>
+               </div>
+
+
+               <div class="galeria"><!--Contenedor de una imagen con su descripción--><!--"cuerpo-2-css" "27"-->
+                  <a class="foto" href="../Imagenes/gt5.jpg"><!--Class="foto" para cuadrar la imagen al contenedor y que al realizar un click le redirige a la imagen--><!--"cuerpo-2-css" "34"-->
+                     <img class="fotoGaleria" src="../Imagenes/gt5.jpg" alt="gt5"><!--"class="fotoGaleria"" se establece un class para cuadrar la imagen y se indica desde donde saca la imagen, más con alt indicando el nombre que tiene--><!--"cuerpo-2-css" "50"-->
+                  </a>
+                  <div class="pie"><!--Se establece un contenedor de la descripción para poner color de fondo y margenes--><!--"cuerpo-2-css" "43"-->
+                     <p class="P">Sala de nose donde meterlo</p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                     <p class="P">Mencion de honor   </p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                  </div>
+               </div>
+
+
+               <div class="galeria"><!--Contenedor de una imagen con su descripción--><!--"cuerpo-2-css" "27"-->
+                  <a class="foto" href="../Imagenes/minecraft.jpg"><!--Class="foto" para cuadrar la imagen al contenedor y que al realizar un click le redirige a la imagen--><!--"cuerpo-2-css" "34"-->
+                     <img class="fotoGaleria" src="../Imagenes/minecraft.jpg" alt="minecraft"><!--"class="fotoGaleria"" se establece un class para cuadrar la imagen y se indica desde donde saca la imagen, más con alt indicando el nombre que tiene--><!--"cuerpo-2-css" "50"-->
+                  </a>
+                  <div class="pie"><!--Se establece un contenedor de la descripción para poner color de fondo y margenes--><!--"cuerpo-2-css" "43"-->
+                     <p class="P">Sala del deshonor </p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                     <p class="P">Los que juegan a esto no me caen bien  </p><!--Se establece una clase a la "P" para poder ajustar la letras y ponerle margenes--><!--"cuerpo-2-css" "10"-->
+                  </div>
+               </div>
+
+            </div>
+      </div>
+
+<!--Pie-->
+
+      <div class = "footer">
+         <p class="texto-f">Gracias por ver el sitio web.</p>
+               <div class="miembros">
+               <p class="mi-j">Jesus Valencia</p>
+               <p class="mi-m">Mario Castillo</p>
+               <p class="mi-a">Adrian Aparicio</p>
+               </div>
+      </div>
+</body>
+</html>

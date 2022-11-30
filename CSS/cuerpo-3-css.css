@@ -1,0 +1,167 @@
+.img-box-cuerpo/*Establecemos el diametro donde estara reposada la imgen, le establecemos float:left para que este encima del TITULO y del formulario*/
+					{
+                        width: 100%; /* el ancho */
+                        float: left; /* para que este encima del TITULO y del formulario*/
+                    }
+
+		#img-cue/*Establecemos los margenes de la imgen y le ponemos el float: left para que se pueda unir con los parametros del box*/
+									{
+										width: 100%;
+										height: 130px;
+										float: left;
+										background-color: rgba(0, 0, 0, 0.342);
+									}
+
+.contenedor-historia /*Se crea una caja donde esten incluidos el titulo y los cuadros que incluye el logo y la historia de StoricGame*/
+					{
+						width: 100%;
+						padding-top: 2%;
+						float: left;
+						overflow: auto;
+					}
+		.titulo-historia/*Para poder controlar el titulo con dejarlo centrado y los margenes, s establece esta etiqueta*/
+									{
+										text-shadow: 2px 2px 5px rgb(250, 238, 131);
+										text-align: center;
+									}
+
+		.logo-historia/*Para poder manegar el contenedor donde iria la imagen y establecerle un espacio.*/
+									{/*Esto son solo los margenes del marco de la Imagen*/
+										float: left;
+										width: 49%;
+										height: auto;
+										min-width: 220px;/*Para el responsive*/
+									}
+		.img-logo-hitoria/*Esto son solo los margenes de la Imagen - El tamaño*/
+									{
+										width: 35%;
+										height: 15%;
+										float: left;
+										margin-top: 17%;/*Marjen superior, de la imagen al borde del contenedor*/
+										margin-left: 35%;/*Marjen Izquierda, de la imagen al borde del contenedor*/
+										margin-bottom: 17%;/*Marjen inferior, de la imagen al borde del contenedor*/
+										margin-right: 35%;/*Marjen Derecha, de la imagen al borde del contenedor*/
+
+									}
+		.texto-historia/*Establecemos los margenes donde iría el texto de la historia, esto se figura como una caja*/
+									{
+										float: left;
+										width: 50%;
+										min-width: 240px;/*Para el responsive*/
+									}
+		.contenido-texto-historia/*Establecemos los margenes y el ajuste del texto dentro del recuador de "texto-historia"*/
+									{
+										text-align: justify;
+										margin-left: 3%;
+										margin-right: 2%;
+										margin-top: 4%;
+										margin-bottom: 12%;
+										font-size: 80%;/*Para el responsive*/
+									}
+#zona2/*Aprovechamos esta categoria para poder establecer el margen superior, ya que el menu flotante cubre la parte superior del formulario a la hora e utilizarlo.*/
+					{
+						margin-top: 315px;
+					}
+
+.formulario/*Aquí tenemos todo el formulario, se establece en una caja para poder ordenar los margenes superiores con le inferior y poder tenerlo más controlado*/
+					{
+						/*Background=Establece el color de fondo : Linear-gradient=Realiza el degradado de los colores que le indiques, de forma predeterminada en horizontal (Es donde poner el color y antes de la coma que es para separar los colores, puede establecerle un alto del degrado de ese color*/
+						background:linear-gradient(white 2%, grey, white);	
+						width: 100%;
+						height: auto;
+						margin-bottom: 5%;
+						float: left;
+						overflow: auto;
+					}
+
+		.t-form/*Este es el parametro para configurar el titulo del formulario*/
+									{
+										margin-top: 3%;
+										padding-left: 4%;
+										text-shadow: 2px 2px 5px rgb(0, 0, 0);
+										font-size: 120%;
+									}
+		form/*Eston son los parametos que se estale la configuración del formulario*/
+									{
+										background-color: rgb(27, 0, 0);
+										margin: 0 auto;
+										width: 50%;
+										padding: 1%;
+										color: rgb(255, 205, 205);
+										border-radius:50px; /*establecer los bordes de ls esquinas de cada caja*/
+										min-width: 210px;/*Para el responsive*/
+									}
+		input, textarea /*Establecemos el multilineado con el parametro de textarea*/
+									{
+										outline: none; /*cuando pasamos con el mause por encima de una caja, este se colorea el contorno de la casilla (color automatico)*/
+										border: 0; /*con esto se elimina el borde la casilla que se generan automaticamente*/
+										width: 90%;
+										border-radius:2%; /*establecer los bordes de ls esquinas de cada caja*/
+									}
+		.field/*Tdodos los campos para escribir tienen la misma clase, por lo que con ello modificamos todos los campos para rellenar*/			
+									{
+										border: solid 2px #ccc;
+										padding: 3%;
+										border-radius: 15px;; /*establecer los bordes de ls esquinas de cada caja*/
+										
+									}
+		.field:focus/*Cuando el mause selecciona el campo a escribir, el controno cambia.*/
+									{
+										border-color: blue;/*Establecemos el color del borde cuando le hacemos un click*/
+									}
+		.center-content/*Establecemos el campo para poder cambiar o modificar el etilo de texto*/
+									{
+										text-align: center;
+									}
+		.btn /*Son los parametros de los botonoes - medidas*/
+									{
+										padding-top:4%;
+										padding-bottom:4%;
+										border-radius:2%; /*establecer los bordes de ls esquinas de cada caja*/
+									}
+
+		.btn-green:hover /*Color del selecotr que se pone cuando paso el mause por la casillla*/
+									{
+										background-color: green;
+										color:white;
+										
+									}
+#zona3/*Aprovechamos esta categoria para poder establecer el margen superior, para así cuadrarlo cuando lo presionemos en el submenu de localización.*/
+					{
+						margin-top: 989px;
+					}
+.TituloTabla		{/*Se establece los margenes del titulo y con ello se establece tambien el centrado del texto*/
+						text-align: center;
+						padding-top: 8%;
+						float: left;
+						width: 100%;
+						font-size: 80%;/*Para el responsive*/
+					}
+#tab-container		{/*Parametro del margen al 100%*/
+						width: 100%;
+					}
+        table		{/*Configuración de toda la tabla inicialmente, luego se empieza a configurar con otras caracteristicas*/
+						background-color: white;
+						border-collapse: collapse;/*La propiedad border-collapse se utiliza para fusionar los bordes.*/
+						text-align: left;
+						width: 100%;
+						min-width: 200px;/*Para el responsive*/
+					}
+		th, td		{/*configuraremos visualmente los margenes de la celdas de la casilla, que en este caso, se lo aplica a la fila superior y a las filas siguientes */
+						border: black 2px solid;
+						padding: 3%;
+						text-align: center;
+						font-size: 80%;
+					}
+		thead		{/*Se establece los parametros de la fila superrior ya que se establecio en el html como unico contenedor*/
+						background-color: rgb(1, 75, 1);
+						border-bottom: black 2px solid;
+						color: white;
+					}
+		table tr:nth-child(even)	{/*Este comendo se utiliza para seleccionar las filas a la que aplicamos el parametro, copn lo cual se indica que se aplique intercalado, solo los pares. Explico: "«even» es una simplificación del valor 2n+2 respectivamente, es decir, selecciona los pares."*/
+								background-color: rgb(202, 202, 202);
+									}
+		tr:hover td	{/*Especificamos que que la fila <tr>, sea activada cuando el cursor pase por encima de esta <:hover> pero a demás espesifico que solo se active a las que dispongan solo de <td> y no a toda la tabla, dejando fuera de este ":hover" a la fila de la cabecera*/
+						background-color: rgb(70, 201, 70);
+						color: white;
+					}

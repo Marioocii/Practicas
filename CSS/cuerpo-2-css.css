@@ -1,0 +1,62 @@
+.bordecaja          {/*Todas las galerias estan dentro de un contenedor con lo que desde ahí se le establece unos margenes*/
+                        width: auto;
+                        float: left;
+                        overflow: auto;
+                        padding-left: 6%;
+                        padding-right: 1%;
+                        min-width: 220px;/*Para el responsive*/
+
+                    }
+
+.P /*Se establece este formato de parrafo "P" para diferenciar de la "p" que hay en el CSS "bhf-css"*/
+                    {
+                        text-align: center;/*el justificado rellena todo el texto desde el borde*/
+                        margin-left: 3%;/*margen lateral izquierdo desde el borde*/
+                        margin-right: 2%;/*margen lateral derecho desde el borde*/
+                        color: black;
+                    }
+
+ .tituloPg2         {/*Delante de todo las galerias, esta el titulo*/
+                        text-align: center;/*el justificado rellena todo el texto desde el borde*/
+                        color: white;
+                        background-color: #003d53;
+                        width: 100%;       
+                        border-radius: 20px;/*Es para ponerle las esquinas en curbado*/
+                        font-size: 90%;/*Ajusta la letra y se activa en el responsive*/
+                
+                    }
+
+ .galeria           {/*Contiene los parametros de toda las galerias y sus margenes*/
+                        margin: 2%;
+                        border: 4px solid #003d53;
+                        width: 42%;
+                        float: left;
+                        min-width: 200px;/*Se ajusta a la medida minima desde donde se activaria el responsive*/
+                    }
+
+.foto               {/*Dentro de cada galeria hay una imagen, con lo que se establece un contenedor para ello y con el que se establece los margenes*/
+                        width: auto;
+                        height:auto;
+                    }
+
+.galeria:hover      {/*Una ves que el cursor pase por encima de la galeria, se activa el ":hover" y activa visualmente la funciona que tiene programada*/
+                        border:4px solid lawngreen;
+                        /* transform te permite transformar el texto, rotate lo gira en el sentido de las abujas del reloj */
+                    }
+
+.pie                {/*Cada galeria dispone de una descripción con lo que se establece los margenes y la justificación de la letra*/
+                        text-align: justify;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                        background-color: rgb(186, 0, 228);
+    
+                    }
+
+.fotoGaleria        {/*Cada foto se le establece los margenes*/
+                        width:100%;
+                        height: 160px;
+                    }
+
+
+
+							

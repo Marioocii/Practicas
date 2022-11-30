@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es"><!--Establecemos el idioma de la pagína web-->
+    <head>
+        <meta charset="uTF-8"><!--Es el descodificador de Unicode ISO / Lo útilizamos en la pagina web para que pueda detectar las letras como el "ñ"-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href= "../CSS/bhf-css.css"><!--El estilo del todo el cuerpo-->
+		    <link rel="stylesheet" href= "../CSS/cuerpo-1-css.css"><!--El estilo de la pagina por individual-->
+				<title>StoricGame</title>
+        <link rel="icon" type="image/x-icon" href="../IMAGENES/Logo.jpg"><!--Este es el mini logo de la pestaña-->
+    </head>
+
+<body>
+<!--Cabecera-->
+<div class="cabecera"><!--Esto en globa la configuración de que incluye el logo - el gif - el Nombre - el Menu-->
+      
+    <div class = "header">
+        <a class ="logo" href="../HTML/StoricGame-index-es.html"><!--Redirige al Index-->
+          <img class ="img" src="../IMAGENES/logo.jpg" alt="StoricGame"> <!--Sitio donde esta la imgane--><!--Atributo "ALT" es para que aparesca el nombre que se le pone a la imagen-->
+        </a>
+        <a class="GIF" href="../HTML/StoricGame-index-es.html"><!--Redirige al Index-->
+          <img  class ="gif" src="../IMAGENES/GIF-COMECOCOS.gif" alt="StoricGame-play"> <!--Sitio donde esta la GIF--><!--Atributo "ALT" es para que aparesca el nombre que se le pone a la GIF-->
+        </a>
+        <h1 class="titulo">STORICGAME</h1><!--TITULO principal-->
+    </div>
+<!--MENU-->
+          <ul class="nav"><!--El contenedor de todo el menu-->
+            <li><a href="StoricGame-index-es.html">Home</a><!--Este sería la pagina Index-HOME -->
+                <ul><!--El Primer SUBMENU que sale desde el HOME-->
+                    <li><a class="Select" href="StoricGame-1-es.html">Ubicaciones</a></li><!--Redirige a la pagina 1, y con el select queda marcado en el sitio donde estas en la web-->
+                    <li><a href="StoricGame-2-es.html">Galeria</a></li><!--Redirige a la pagina 2-->
+                    <li><a href="StoricGame-3-es.html">Contacto</a></li><!--Redirige a la pagina 3-->
+                    <li><a>IDIOMA</a><!--No redirige a ninguna pagina pero su existencia es para dar paso al menu de idioma-->
+                        <ul><!--El Segundo SUBMENU que sale de IDIOMA-->
+                            <li class="zona"><a href="StoricGame-1-es.html">ESPAÑOL</a></li><!--Redirige a los HTMLs que contienen texto en español-->
+                            <li class="zona"><a href="StoricGame-1-in.html">INGLES </a></li><!--Redirige a los HTMLs que contienen texto en Ingles-->                                     
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a class="Select" href="StoricGame-1-es.html">Ubicaciones</a><!--Redirige a la pagina 1, y con el select queda marcado en el sitio donde estas en la web-->
+              
+            </li>
+            <li><a href="StoricGame-2-es.html">Galeria</a></li><!--Parte del MENU horizontal pagina 2-->
+            <li><a href="StoricGame-3-es.html">Contacto</a></li><!--Parte del MENU horizontal pagina 3-->
+          </ul>
+
+</div>
+
+<!--Cuerpo-->
+
+<div class="texto"><!--Es el contenedor del cuerpo su CSS esta en "bhf-css"-->
+          <p>
+            Encuentra cerca de tu ubicación las mejores tiendas de videojuegos ayudandote con nuestros mapas implementados
+          </p>
+
+  <!--contenedor mapa-->
+          <div class="mapa"><!--Esta class contiene los parametros del mapa, pero al final del LINK esta el hancho y alto del mapa--><!--"cuerpo-1-css" "3"-->
+          		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d194194.4293332976!2d-3.898211!3d40.491015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x15a893acacaa40c0!2sGAME!5e0!3m2!1ses!2ses!4v1667142213002!5m2!1ses!2ses" width="99%" height="450" ></iframe>
+	        </div>
+
+	<!--contenedor info mapa -->
+	      	<div class=" content"><!--Esta class contiene los parametros del texto y se establece para ponerle margenes y alineaciones al texto--><!--"cuerpo-1-css" "12"-->
+          	  <p>
+                  GAME es una de las tiendas de videojuegos y accesorios del gaming mas famosa del mercado, sus sedes principales ubicadas por toda España ya que cuenta con sus más de 260 tiendas fisicas.
+	      	    		Ademas de contar con sus distatintas promociones, descuentazos incribles en todo tipo de productos todas las semanas y sus figuritas representando los diferentes personajes de videojuegos 
+              </p>
+	      	</div>
+
+	<!--Whatsapp mapa-->
+          <a class="WhatsappCont" href="https://web.whatsapp.com/send?phone=+34644906157"><!--Contiene el parametro de todo lo referente a Whatsapp y se aprovecha la linea para poner la dirección a Whatsapp--><!--"cuerpo-1-css" "22"-->
+              <h2 class="MensajeWhatsapp">Envia un mensaje</h2><!--Titulo h2 donde se lo pone una class para poder modificar unilateralmente a dicho titulo--><!--"cuerpo-1-css" "31"-->
+              <img class="imgWhatsapp" src="../IMAGENES/WhatsApp.png" alt="imgWhatsapp"><!--Se le establece una clase a la imagen de whatsapp para que pueda ser modificada--><!--"cuerpo-1-css" "39"-->
+          </a>   
+
+	<!--contenedor mapa1-->
+        	<div class="mapa"><!--Esta class contiene los parametros del mapa, pero al final del LINK esta el hancho y alto del mapa--><!--"cuerpo-1-css" "3"-->
+         			<iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.634263600004!2d-3.6561301844041356!3d40.43909676220244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228517602d44f%3A0xc34d1740af94a98c!2sEl%20Rinc%C3%B3n%20Del%20Retro%20-%20Compramos%20tus%20Videojuegos%20y%20Consolas!5e0!3m2!1ses!2ses!4v1667577220812!5m2!1ses!2ses" width="99%" height= "450"></iframe>
+        	</div>
+
+  <!--contenedor info mapa1-->  
+        	<div class=" content"><!--Esta class contiene los parametros del texto y se establece para ponerle margenes y alineaciones al texto--><!--"cuerpo-1-css" "12"-->
+      			  <p>
+                El Rincon Del Retro. 
+                Es una tienda de Videojuegos Retro como bien indica el nombre de la pág y Articulos de Coleccion en la que podrás encontrar una gran variedad de las consolas más clasicas desde las famosas y conocidas Nintendo hasta la consola Sony.
+	      				Además de sus videojuegos con carcasas originales, no dudes en visitarla si eres fanático/a de los videojuegos retro, sin desmeritar también sus casi 10 años dentro del mercado
+              </p>    
+	      	</div>
+
+	<!--Whatsapp mapa1-->
+          <a class="WhatsappCont" href="https://web.whatsapp.com/send?phone=+34644906157"><!--Contiene el parametro de todo lo referente a Whatsapp y se aprovecha la linea para poner la dirección a Whatsapp--><!--"cuerpo-1-css" "22"-->
+              <h2 class="MensajeWhatsapp">Envia un mensaje</h2><!--Titulo h2 donde se lo pone una class para poder modificar unilateralmente a dicho titulo--><!--"cuerpo-1-css" "31"-->
+              <img class="imgWhatsapp" src="../IMAGENES/WhatsApp.png" alt="imgWhatsapp"><!--Se le establece una clase a la imagen de whatsapp para que pueda ser modificada--><!--"cuerpo-1-css" "39"-->
+          </a>          
+</div>
+
+<!--Pie-->
+
+<div class = "footer">
+          <p class="texto-f">Gracias por ver la pagina web</p>
+                <div class="miembros">
+                  <p class="mi-j">Jesus Valencia</p>
+                  <p class="mi-m">Mario Castillo</p>
+                  <p class="mi-a">Adrian Aparicio</p>
+                </div>
+</div>
+
+</body>
+</html>

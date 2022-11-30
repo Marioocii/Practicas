@@ -1,0 +1,58 @@
+/*Toda la cabezecera esta en el CSS bhf-css*/
+
+.mapa/* Propiedades de las cajas de los mapas*/
+					{	
+					margin-left: 3%; /* espaciado de 3% pixeles de margen izquierdo*/
+					float: left; /*para apilar la caja a la izquierda junto a las otras*/
+					width: 58%; /*el ancho de la caja*/
+					border: #003d53 4px solid; /*color, grosor, sólido*/
+					margin-bottom: 6%; /*margen inferior de la caja de mapa*/
+					min-width: 200px;/*Para el responsive*/
+				}				
+			
+.content/* Propiedades de las cajas de contenido de los mapas*/
+					{
+					margin-left: 3%; /* espaciado de 33 pixeles de margen izquierdo*/
+					float: left; /*para apilar la caja a la izquierda junto a las otras*/
+					width: 30%; /*el ancho de la caja*/
+					height: 50%; /*altura de la caja del 50%*/
+					text-align: justify; /*texto justificado*/
+					border: #3cad32 3px solid;	/*color, grosor, sólido*/
+					min-width: 200px;/*para el responsive*/
+					font-size: 80%;/*para el responsive*/
+					}
+
+.WhatsappCont/*Contenedor donde se encuentra el titulo de "Envia un mensaje" y se encuentra la imgaen de whatsapp*/
+					{
+						width: 30%;
+						height: 160px;
+						float: left;
+						overflow: auto;
+						margin: 3%;
+						min-height: 75%;/*Para el responsive*/
+						border: red 1px solid;
+					}
+
+					.MensajeWhatsapp/*Desde este sector, vamos a poner los  parametros del titulo "Envia un mensaje"*/	
+										{
+											text-align: center;
+											float: left;
+											width: 91%;
+											margin: 2%;
+											font-size: 95%;
+											padding: 2%;
+											border: black 1px solid;
+										}
+									
+					.imgWhatsapp/*Desde aquí marcamos los paramtros de la imagen de whatsapp*/
+										{
+											width: 60%;
+											height: 70px;
+											float: left;
+											margin-left: 19%;
+											margin-right: 12%;
+											margin-top: 9%;
+											border: blue 1px solid;
+										}
+										
+

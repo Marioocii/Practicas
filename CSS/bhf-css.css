@@ -1,0 +1,269 @@
+body {/*Quí esta la configuración general del body*/
+    background-color: #f0fbff;/*color de fondo de la toda la pagina*/
+    box-sizing: border-box;/*retira los espacios de los contornos entre linea de cuadro a cuadro, uniendolos*/
+    margin: 0%; /*Retiramos los bordes que tenia la pagina por defecto*/
+        }
+/* HEAD--Cabecera/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.cabecera   {
+                border: black 2px dashed;/*Color - gruesor - Tipo de borde*/
+                background-color: #003d53;/*color de fondo solo de la cabecera*/
+                width: 100%;/*ancho de la cabecera, porcentaje para que se adapte al tamaño de la pagina*/
+                height: auto;/*alto de la cabecera, automatico para que se adapte al tamaño del contenido*/
+                position: fixed;/*es para poder dejarlo fijo delante de todo lo demas*/
+                top: 0%;/*se coloca este margen superior a 0 por que hace conficto con el "margin-top" del texto*/
+                left: 0%;/*se coloca este margen izquierdo a 0*/
+            }    
+        .header {/*Contiene toda la cabecera, que incluye el logo, el gif y el titutlo*/
+                    border: rgb(255, 0, 0) 2px solid;/*Color - gruesor - Tipo de borde*/
+                    overflow: auto;/*Se ha puesto este "overflow" para que puedan estar dentro del mismo recuadro el logo con el titulo*/
+                    /*
+                    -------------Margenes de la caja de la cabezera----------------------------------
+                    */
+                    width: 100%;
+                    height: auto;
+                }
+                    .logo   
+                                {/*Esto son solo los margenes del marco de la Imagen*/
+                                    border: black 1px solid;
+                                    /*
+                                    Se ha adactado con el ".img" si se quita este float, no se ajusta a la imagen
+                                    */
+                                    float: left;
+                                    /*
+                                    Emos pueso el auto para que se ajuste a la Imagen
+                                    */
+                                    width: auto;
+                                    height: auto;
+                                    margin-left: 25%;/*margen que se deja desde el lateral izquierdo hasta el logo*/
+                                }
+
+                    .img    
+                                {/*Esto son solo los margenes de la Imagen - El tamaño*/
+                                    width: 100%;
+                                    height: 80px;
+                                    /*
+                                    Se ha adactado con el ".logo" si se quita este float, no se ajusta al marco de la imagen
+                                    */
+                                    float: left;
+                                }
+                                
+                    .GIF    
+                                {/*El GIF de la imagen Derecha / Mantiene los mismo valores del logo pero solo que esta en la izquierda*/
+                                    border: black 1px solid;
+                                    float: right;/*Se ha adactado con el ".gif" si se quita este float, no se ajusta al gif*/
+                                    /*
+                                    Emos pueso el auto para que se ajuste al GIF
+                                    */
+                                    width: auto;
+                                    height: auto;
+                                    margin-right: 25%;/*margen que se deja desde el lateral dercho hasta el GIF*/
+                                }
+
+                    .gif        
+                                {/* Esto son solo los margenes del gif - El tamaño*/
+                                    width: 100%;
+                                    height: 80px;
+                                    /*
+                                    Se ha adactado con el ".GIF" si se quita este float, no se ajusta al marco del gif
+                                    */
+                                    float: right;
+                                }
+                                
+                    .titulo     
+                                {/*Esto configura el titulo "STORICGAME"*/
+                                    color: white;/*color del titulo*/
+                                    text-align: center;/*para que el texto este centrado desde los dos laterales*/
+                                }
+/* MENU /////////////////////////////////////////////////////////////////////////////////////////////////////*/
+        .nav/*El primer "UL" que engloba todo el menu y tiene la classe de ".nav"*/              
+                {/*Menu*/
+                    margin-left: 2%;
+                    margin-top: 0;/*tiene que estar por que si no estalece margenes automaticos*/
+                    margin-bottom: 0;/*tiene que estar por que si no estalece margenes automaticos*/
+                    margin-right: 24%;
+                    padding:0px;/*tiene que estar por que si no estalece el espacio automatico automaticos*/
+                    overflow: auto;
+                    width: 80%;
+                }
+
+                    ul /*Desde aquí podemos establecer la configuración de todos los "ul"*/
+                                            {
+                                                list-style:none;/*Eliminamos los estilos de lista*/
+                                            }
+                                        
+                    .nav > li/* ">" Indica a donde se tiene que establecer los parametros del CSS, Indica que se establecera los parametros a los hijo directo de ".nav"*/
+                                            {/*Establece configuración a todos los li*/
+                                                float:left;
+                                                padding-left:auto;
+                                                padding-right:auto;
+                                                width: 25%;
+                                            }
+                    .nav > li.Home/*Todos los elementos que son hijos directos de .nav*/
+                                            {/*que en este caso se establece en el li y con ello redirigimos a la clase que dispone que es ".Home"*/
+                                                padding-left:auto;
+                                                padding-right:auto;
+                                                width: 25%;
+                                            }
+                    .nav li a.Select-home/*Se estable ruta para redirigir la configuración*/
+                                            {/*llegando a la clase de "Select-home"*/
+                                                background-color:#530000;
+                                                color:#ffffff;
+                                                text-decoration:none;
+                                                padding-top: auto;
+                                                padding-bottom: auto;
+                                                display:block;
+                                                width: 100%;
+                                            }
+                    .nav li a.Select/*Se estable ruta para redirigir la configuración*/
+                                            {/*En cada linea de < li y despues a > en HTML que esté esta clase: "Select" se tintara la selección del menu ( Se aplica esta configuración de CSS*/
+                                             /*La gran parte de los parametros estan en "auto"matico para que pueda coger la configuración establecida por la "li a"*/
+                                                background-color:#530000;
+                                                color:#ffffff;
+                                                text-decoration:none;
+                                                padding-left:auto;
+                                                padding-top: auto;
+                                                padding-bottom: auto;
+                                                padding-right:auto;
+                                                display:block;
+                                                width: 100%;
+                                            }
+                    .nav li a/*Se estable ruta para redirigir la configuración*/
+                                            {/*Se establece la configuración a todos los "a" que estan dentro de los "li"*/
+                                                background-color:#003D53;
+                                                color:#ffffff;
+                                                text-decoration:none;
+                                                padding-left:auto;
+                                                padding-top: 3%;
+                                                padding-bottom: 3%;
+                                                padding-right:auto;
+                                                display:block;
+                                                width: 100%;
+                                                text-align: center;
+                                            }
+                                        
+                    .nav li a:hover/*Se estable ruta para redirigir la configuración*/
+                                            {/*":hover" actua cuando el cursor esta encima*/
+                                                background-color:rgb(0, 34, 46);
+                                                color: white;
+                                            }
+                                        
+                    .nav li ul/*Se estable ruta para redirigir la configuración*/
+                                            {
+                                                display:none;/*Da la indicación que de que no se aplique este Menú "ul"*/
+                                                position:absolute;/*Salta por ensima de todo el flujo. Pero en este caso no se va al riiba de toda la pantalla por que solo funciona por lo que esten dentro de su contenedor en este caso esta dentro de un "li"*/
+                                                min-width:122px;/*La propiedad min-width se usa para determinar la anchura mínima de un elemento*/
+                                                color:#bb1b1b;
+                                                padding-left: 0%;/*tiene que estar por que si no estalece el espacio automaticos*/
+                                            }
+                                        
+                    .nav li:hover > ul/*Se estable ruta para redirigir la configuración*/
+                                            {
+                                                display:block;/*Comenta que al pasar el cursor se actuve el menu y aparesca. Donde anteriomente ponia "Display:none".*/
+                                            }
+                                        
+                    .nav li ul li/*Se establece la configuración en los submenus en forma general*/
+                                            {
+                                                position:relative;/*Se queda fija en la posisión que le indicamos con los valore de posicion. Como no tenemos valore de posisión se queda fija justo de bajo del anterior elemento*/
+                                                border: rgb(0, 0, 0) 1px solid;/*Color - gruesor - Tipo de borde*/
+                                                width: 187%;
+
+                                            }
+                    .nav li ul li a.Select/*Se establece los parametros en el valor que disponga de esta clase*/
+                                            {
+                                                background-color:#530000;
+                                                color:#ffffff;
+                                                text-decoration:none;
+                                                display:block;/*Establece el orden orizontal*/
+                                            }
+
+                    .nav li ul li.zona/*Se estable ruta para redirigir la configuración*/
+                                            {
+                                                width: 180%;
+                                            }
+
+                    .nav li ul li ul li.zona a/*Se estable ruta para redirigir la configuración*/
+                                            {
+                                                padding-top: 3%;
+                                                padding-bottom: 3%;
+                                                width: 100%;
+                                                text-align: center;
+                                                text-decoration: none;/*Retira la decoración de las letras, que en este caso, al estar en un menu, le salta una raya en la parte de abajo y con este comandoi, se lo retira*/
+                                            }
+                    .nav li ul li.zona a/*Se estable ruta para redirigir la configuración*/
+                                            {
+                                                padding-top: 5%;
+                                                padding-bottom: 5%;
+                                                width: 100%;
+                                                text-align: center;
+                                                text-decoration: none;
+                                            }
+
+.texto/*CUERPO DE LA PAGINA - PARAMETRO DEL TECTO /////////////////////////////////////////////////////////////////////////////////*/
+            {
+                border: black 2px solid;/*Color - gruesor - Tipo de borde*/
+                text-align: justify;
+                overflow: auto; /* se aplica  a las cajas que hay dentro del propio .texto para que se apilen y se ordenen*/
+                margin-left: 20%;/*margen lateral izquierdo del borde hasta el final de la pagina*/
+                margin-right: 20%;/*margen lateral derecha del borde hasta el final de la pagina*/
+                margin-top: 120px;/*Esto es para el margen superior del texto y que no sea tapado por la cabecera*/
+                padding: 0%;/*tiene que estar por que si no estalece margenes automaticos*/
+            }
+
+.footer/*PIE de PAGINA ////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+            {
+                border: blanchedalmond 2px solid;/*Color - gruesor - Tipo de borde*/
+                background-color: gray;/*color del fondo*/
+                overflow: auto;/*para que no se mescle con las otras cajas*/
+            }
+
+        .texto-f        
+                        {
+                            border: rgb(255, 198, 113) 2px solid;/*Color - gruesor - Tipo de borde*/
+                            color: black;/*color de texto*/
+                            text-align: center;/*texto centrado*/
+                            margin-top: 5px;/*es para la separación con la parte superior*/
+                            margin-bottom: 0;/*se pone a cero el margen inferior*/
+                        }
+        .miembros       
+                        {
+                            border: rgb(255, 198, 113) 2px solid;/*Color - gruesor - Tipo de borde*/
+                            padding: 0% 0%;/*Retiramos todo el espacio interior que se pone automaticamente*/
+                            box-sizing: content-box;/*Realiza el calculo automatico, para que repete los margenes que dispone de su padre*/
+                        }
+
+                    .mi-j/*Margenes y configuración del nombre de Jesús*/
+                                {
+                                    border: rgb(255, 198, 113) 2px solid;/*Color - gruesor - Tipo de borde*/
+                                    width: 100px;
+                                    height: auto;
+                                    margin-left: 80%;
+                                    margin-bottom: 0%;
+                                    margin-top: 0%;
+                                }
+                    .mi-m/*Margenes y configuración del nombre de Mario*/
+                                {
+                                    border: rgb(232, 255, 205) 2px solid;/*Color - gruesor - Tipo de borde*/
+                                    width: 100px;
+                                    height: auto;
+                                    margin-left: 80%;
+                                    margin-bottom: 0%;
+                                    margin-top: 0%;
+                                }
+                    .mi-a/*Margenes y configuración del nombre de Adrían*/
+                                {
+                                    border: rgb(210, 161, 250) 2px solid;/*Color - gruesor - Tipo de borde*/
+                                    width: 100px;
+                                    height: auto;
+                                    margin-left: 80%;
+                                    margin-bottom: 0%;
+                                    margin-top: 0%;
+                                }
+P /*Configuración estandar para la atención de las OVDN      */
+					{
+                        text-align: justify;/*el justificado rellena todo el texto desde el borde*/
+                        margin-left: 3%;/*margen lateral izquierdo desde el borde*/
+                        margin-right: 2%;/*margen lateral derecho desde el borde*/
+						margin-top: 5%;
+            
+                    }                              
+                                

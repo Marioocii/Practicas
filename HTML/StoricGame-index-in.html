@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="in"><!--Establecemos el idioma de la pagína web-->
+    <head>
+        <meta charset="uTF-8"><!--Es el descodificador de Unicode ISO / Lo útilizamos en la pagina web para que pueda detectar las letras como el "ñ"-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href= "../CSS/bhf-css.css"><!--El estilo del todo el cuerpo-->
+		    <link rel="stylesheet" href= "../CSS/cuerpo-Index-css.css"><!--El estilo de la pagina por individual-->
+				<title>StoricGame</title>
+        <link rel="icon" type="image/x-icon" href="../IMAGENES/Logo.jpg"><!--Este es el mini logo de la pestaña-->
+    </head>
+
+    <body>
+<!--Cabecera-->
+        <div class="cabecera"><!--Esto en globa la configuración de que incluye el logo - el gif - el Nombre - el Menu-->
+
+            <div class = "header">
+                <a class ="logo" href="../HTML/StoricGame-index-in.html"><!--Redirige al Index-->
+                  <img class ="img" src="../IMAGENES/logo.jpg" alt="StoricGame"> <!--Sitio donde esta la imgane--><!--Atributo "ALT" es para que aparesca el nombre que se le pone a la imagen-->
+                </a>
+                <a class="GIF" href="../HTML/StoricGame-index-in.html"><!--Redirige al Index-->
+                  <img  class ="gif" src="../IMAGENES/GIF-COMECOCOS.gif" alt="StoricGame-play"> <!--Sitio donde esta la GIF--><!--Atributo "ALT" es para que aparesca el nombre que se le pone a la GIF-->
+                </a>
+                <h1 class="titulo">STORICGAME</h1><!--TITULO principal-->
+            </div>
+
+<!--MENU-->
+
+                  <ul class="nav"><!--El contenedor de todo el menu-->
+                    <li class="Home"><a class="Select-home" href="StoricGame-index-in.html">Home</a><!--Este sería la pagina Index-HOME -->
+                        <ul><!--El Primer SUBMENU que sale desde el HOME-->
+                            <li><a href="StoricGame-1-in.html">Locations</a></li><!--Redirige a la pagina 1-->
+                            <li><a href="StoricGame-2-in.html">Gallery</a></li><!--Redirige a la pagina 2-->
+                            <li><a href="StoricGame-3-in.html">Contact</a></li><!--Redirige a la pagina 3-->
+                            <li><a>LANGUAGES</a><!--No redirige a ninguna pagina pero su existencia es para dar paso al menu de idioma-->
+                                <ul><!--El Segundo SUBMENU que sale de IDIOMA-->
+                                    <li class="zona"><a href="StoricGame-index-es.html">ESPAÑOL</a></li><!--Redirige a los HTMLs que contienen texto en español-->
+                                    <li class="zona"><a href="StoricGame-index-in.html">INGLES </a></li><!--Redirige a los HTMLs que contienen texto en Ingles-->
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="StoricGame-1-in.html">Locations</a></li><!--Parte del MENU horizontal pagina 1-->
+                    <li><a href="StoricGame-2-in.html">Gallery</a></li><!--Parte del MENU horizontal pagina 2-->
+                    <li><a href="StoricGame-3-in.html">Contact</a></li><!--Parte del MENU horizontal pagina 3-->
+                  </ul>
+        </div>
+
+<!--Cuerpo-->
+
+        <div class="texto">
+
+              <div id = "video">
+                  <iframe width="99%" height="400" src="https://www.youtube.com/embed/ezKQ-FE4UEQ" title="YouTube video player"></iframe>
+              </div>
+
+                  <p class="textonoticia">Leaked Amazon Prime Gaming games for November: Fallout New Vegas and more</p>
+                  <a href="https://vandal.elespanol.com/noticia/1350757519/filtrados-los-juegos-de-amazon-prime-gaming-de-noviembre-fallout-new-vegas-y-mas/"> 
+                  <img class="imagenColum" src="../IMAGENES/juegos.png" alt="ImagenColumnas"></a>
+
+                  <div class="columnas">
+              		  <div class="column">
+              		    	<h2 class="columH2">Column1</h2>
+              		    	<p>Lorem ipsum pain sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urn. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+              		  </div>
+              		  <div class="column">
+              			    <h2 class="columH2">Column2</h2>
+              		    	<p>Lorem ipsum pain sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urn. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+              		  </div>
+              		  <div class="column">
+              			    <h2 class="columH2">Column3</h2>
+              		    	<p>Lorem ipsum pain sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urn. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+              		  </div>
+                  </div>
+        </div>
+
+<!--Pie-->
+
+        <div class = "footer">
+            <p class="texto-f">Thank you for viewing the website.</p>
+            <div class="miembros">
+            
+        		  <p class="mi-j">Jesus Valencia</p>
+        		  <p class="mi-m">Mario Castillo</p>
+        		  <p class="mi-a">Adrian Aparicio</p>
+            
+            </div>
+        </div>
+
+    </body>
+</html>

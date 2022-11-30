@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="in"><!--Establecemos el idioma de la pagína web-->
+    <head>
+      <meta charset="uTF-8"><!--Es el descodificador de Unicode ISO / Lo útilizamos en la pagina web para que pueda detectar las letras como el "ñ"-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href= "../CSS/bhf-css.css"><!--El estilo del todo el cuerpo-->
+		    <link rel="stylesheet" href= "../CSS/cuerpo-3-css.css"><!--El estilo de la pagina por individual-->
+				<title>StoricGame</title>
+        <link rel="icon" type="image/x-icon" href="../IMAGENES/Logo.jpg"><!--Este es el mini logo de la pestaña-->
+    </head>
+
+<body><!--Cabecera-->
+
+    <div class="cabecera"><!--Esto en globa la configuración de que incluye el logo - el gif - el Nombre - el Menu-->
+
+        <div class = "header">
+            <a class ="logo" href="../HTML/StoricGame-index-in.html"><!--Redirige al Index-->
+              <img class ="img" src="../IMAGENES/logo.jpg" alt="StoricGame"> <!--Sitio donde esta la imgane--><!--Atributo "ALT" es para que aparesca el nombre que se le pone a la imagen-->
+            </a>
+            <a class="GIF" href="../HTML/StoricGame-index-in.html"><!--Redirige al Index-->
+              <img  class ="gif" src="../IMAGENES/GIF-COMECOCOS.gif" alt="StoricGame-play"> <!--Sitio donde esta la GIF--><!--Atributo "ALT" es para que aparesca el nombre que se le pone a la GIF-->
+            </a>
+            <h1 class="titulo">STORICGAME</h1><!--TITULO principal-->
+        </div>
+        
+  <!--MENU-->
+              <ul class="nav"><!--El contenedor de todo el menu-->
+                <li><a href="StoricGame-index-in.html">Home</a><!--Este sería la pagina Index-HOME -->
+                    <ul><!--El Primer SUBMENU que sale desde el HOME-->
+                        <li><a href="StoricGame-1-in.html">Locations</a></li><!--Redirige a la pagina 1-->
+                        <li><a href="StoricGame-2-in.html">Gallery</a></li><!--Redirige a la pagina 2-->
+                        <li><a class="Select" href="StoricGame-3-in.html">Contact</a></li><!--Redirige a la pagina 3, y con el select queda marcado en el sitio donde estas en la web-->
+                        <li><a>LANGUAGES</a><!--No redirige a ninguna pagina pero su existencia es para dar paso al menu de idioma-->
+                          <ul><!--El Segundo SUBMENU que sale de IDIOMA-->
+                              <li class="zona"><a href="StoricGame-3-es.html">ESPAÑOL</a></li><!--Redirige a los HTMLs que contienen texto en español-->
+                              <li class="zona"><a href="StoricGame-3-in.html">INGLES </a></li><!--Redirige a los HTMLs que contienen texto en Ingles-->                                        
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="StoricGame-1-in.html">Locations</a></li><!--Redirige a la pagina 1-->
+                <li><a href="StoricGame-2-in.html">Gallery</a></li><!--Redirige a la pagina 2-->
+                <li><a class="Select" href="StoricGame-3-in.html">Contact</a><!--Redirige a la pagina 3, y con el select queda marcado en el sitio donde estas en la web-->
+                  <ul><!--El Tercer SUBMENU que sale de la pagina 3-->
+                    <li class="zona"><a href="#zona1">HISTORY</a></li><!--La primera ubicación dentro de la pagina 3-->
+                    <li class="zona"><a href="#zona2">QUERY</a></li><!--La Segunda ubicación dentro de la pagina 3-->
+                    <li class="zona"><a href="#zona3">LOCATION</a></li><!--La tercera ubicación dentro de la pagina 3-->
+                  </ul>
+                </li>
+              </ul>
+            
+    </div>
+
+  <!--Cuerpo-->
+
+    <div class="texto">
+    <!--Imagen superior del cuerpo-->
+              <a class="img-box-cuerpo"  id="zona1" href="../HTML/StoricGame-3-in.html"><!--Redirige a-->
+                <img  id="img-cue" src="../IMAGENES/halloween-pagina3.jpg" alt="StoricGame"> <!--Sitio donde esta la GIF-->
+              </a>
+    <!--Historia-->
+              <div class="contenedor-historia"><!--Contenedor de todo el historial--><!--"cuerpo-3-css" "15"-->
+                  <h2 class="titulo-historia">STORY OF STORICGAME</h2><!--Contiene el class con el que se configura el titulo h2--><!--"cuerpo-3-css" "22"-->
+                  <a class ="logo-historia" href="../HTML/StoricGame-3-in.html"><!--Redirige a la propia pagina web / y tiene la class--><!--"cuerpo-3-css" "28"-->
+                    <img class ="img-logo-hitoria" src="../IMAGENES/logo.jpg" alt="StoricGame"> <!--Sitio donde esta la imgane--><!--Atributo "ALT" es para que aparesca el nombre que se le pone a la imagen--><!--"cuerpo-3-css" "34"-->
+                  </a>
+                  <div class="texto-historia"><!--Contenedor del texto, esta a lado del LOGO, mantiene margen--><!--"cuerpo-3-css" "45"-->
+                      <P class="contenido-texto-historia"><!--Class de configuración de margenes del texto--><!--"cuerpo-3-css" "51"-->
+                        StoricGame is one of the most popular video game websites internationally.
+                        With more than 10 years in the market, we offer our clients a wide variety of titles for all tastes:
+                        from classic video games to the latest market innovations. We have a team of experts who select
+                        carefully each of the games we offer, so that our customers enjoy the best gaming experience possible.
+                        StoricGame offers a wide variety of titles to suit all tastes.
+                      </P>
+                  </div>
+              </div>
+    <!--FORMULARIO-->
+              <div id="zona2"></div><!--Se establece un "ID" de la zona donde se ha indicado en el menu de localización, con el id se indica una configuración especifica en css--><!--"cuerpo-3-css" "59"-->
+              <div class="formulario"><!--Contenedor de todo el formulario--><!--"cuerpo-3-css" "64"-->
+                    <h2 class="t-form">QUERY</h2><!--Titulo 2, se le pone el 2 por el tamaño y su pocisión es estar encima del formulario-->
+                    <form action="luego"><!--Formulario - incio, se le establece actión bacio, es donde se establece el sitio donde se pondran estos datos-->
+                          
+                          <p>Name:</p><!--Este dato esta dentro del formulario, establece el primer campo para poner el nombre-->
+                            <input type="text" class="field"><br> <!--El input se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario--><!--line break <br> produce un salto de línea en el texto--><!--"Type" determina el tipo de entrada que se va a utilizar y sus valores pueden ser uno de los siguientes: text, muestra una caja donde introducir texto--><!--"cuerpo-3-css" "91"-->
+                                                                  <!--field es un class para configurar el borde y las esquinas curvadas--><!--"cuerpo-3-css" "98"-->
+                          <p>Email:</p><!--Este dato esta dentro del formulario, establece el segundo campo para poner el Correo electronico-->
+                            <input type="text" class="field"><br> <!--El input se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario--><!--line break <br> produce un salto de línea en el texto--><!--"Type" determina el tipo de entrada que se va a utilizar y sus valores pueden ser uno de los siguientes: text, muestra una caja donde introducir texto--><!--"cuerpo-3-css" "91"-->
+                                                                  <!--field es un class para configurar el borde y las esquinas curvadas--><!--"cuerpo-3-css" "98"-->
+                          <p>Affair:</p><!--Este dato esta dentro del formulario, establece el tercer campo para poner el El motivo del envio de la consulta-->
+                            <input type="text" class="field"><br> <!--El input se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario--><!--line break <br> produce un salto de línea en el texto--><!--"Type" determina el tipo de entrada que se va a utilizar y sus valores pueden ser uno de los siguientes: text, muestra una caja donde introducir texto--><!--"cuerpo-3-css" "91"-->
+                                                                  <!--field es un class para configurar el borde y las esquinas curvadas--><!--"cuerpo-3-css" "98"-->
+                          <p>Message:</p><!--Este dato esta dentro del formulario, establece el Cuarto campo para poner la explicación de la consulta.-->
+                          <textarea class="field"></textarea><br><!--El "TEXTAREA"Las áreas de texto de esta clase son usadas para comentarios que requiera un espacio extensible para introducir texto.--><!--line break <br> produce un salto de línea en el texto--><!--"cuerpo-3-css" "98"-->
+                          
+                          <p class="center-content"><input type="button" class="btn btn-green" value="Send data"></p><!--El bonton que enviara el formulario a donde le indiquemos cuando pongamos la dirección en "action"--><!--"cuerpo-3-css" "109" , "113" y "120"-->
+                    </form>
+              </div>
+    <!--TABLA-->
+              <div id="zona3"></div><!--Se establece un "ID" de la zona donde se ha indicado en el menu de localización, con el id se indica una configuración especifica en css--><!--"cuerpo-3-css" "126"-->
+              <div class="TituloTabla"><!--Establecemos esta class para poder configurar los margenes del h1--><!--"cuerpo-3-css" "130"-->
+                    <h1> Location Gain Table</h1>
+              </div>
+              <div id="tab-container"><!--Indicamos una "ID" para que podamos configurar el margen orizontal y que lo pueda coger al 100%--><!--"cuerpo-3-css" "136"-->
+                  <table><!--En HTML una tabla puede ser considerada, resumidamente, como un grupo de filas donde cada una contiene a un grupo de celdas--><!--"cuerpo-3-css" "139"-->
+                          <thead><!-- define una sección de encabezado en una tabla-->
+                                  <tr><!--fila de tabla (table row) <tr> define una fila de celdas en una tabla. Estas pueden ser una mezcla de elementos <td> y <th>--><!--"cuerpo-3-css" "158"-->
+                                        <th><!--<th> define una celda como encabezado de un grupo de celdas en una tabla.--><!--"cuerpo-3-css" "145"-->
+                                          LOCATION
+                                        </th>
+                                        <th><!--<th> define una celda como encabezado de un grupo de celdas en una tabla.--><!--"cuerpo-3-css" "145"-->
+                                          MONTH
+                                        </th>
+                                        <th><!--<th> define una celda como encabezado de un grupo de celdas en una tabla.--><!--"cuerpo-3-css" "145"-->
+                                          COST
+                                        </th>
+                                  </tr>
+                          </thead>
+                        
+                          <tr><!--fila de tabla (table row) <tr> define una fila de celdas en una tabla. Estas pueden ser una mezcla de elementos <td> y <th>--><!--"cuerpo-3-css" "158"-->
+                                <td>Gran Plaza</td><td>January</td><td>103,000€</td><!-- Celda de tabla ( <td> ) define la celda de una tabla que contiene datos--><!--"cuerpo-3-css" "145"-->
+                          </tr>
+                          <tr><!--fila de tabla (table row) <tr> define una fila de celdas en una tabla. Estas pueden ser una mezcla de elementos <td> y <th>--><!--"cuerpo-3-css" "158"-->
+                                <td>Esteban Mora</td><td>February</td><td>85,500€</td><!-- Celda de tabla ( <td> ) define la celda de una tabla que contiene datos--><!--"cuerpo-3-css" "145"-->
+                          </tr>
+                          <tr><!--fila de tabla (table row) <tr> define una fila de celdas en una tabla. Estas pueden ser una mezcla de elementos <td> y <th>--><!--"cuerpo-3-css" "158"-->
+                                <td>Barceloneta</td><td>March</td><td>90,100€</td><!-- Celda de tabla ( <td> ) define la celda de una tabla que contiene datos--><!--"cuerpo-3-css" "145"-->
+                          </tr>
+                          <tr><!--fila de tabla (table row) <tr> define una fila de celdas en una tabla. Estas pueden ser una mezcla de elementos <td> y <th>--><!--"cuerpo-3-css" "158"-->
+                                <td>Madrid</td><td>April</td><td>45.450€</td><!-- Celda de tabla ( <td> ) define la celda de una tabla que contiene datos--><!--"cuerpo-3-css" "145"-->
+                          </tr>
+                  </table>
+              </div>
+              <p>Our games span various genres including but not limited to
+                racing games, survival games, platform games,
+                adventure games and role playing games.
+                Our platforms are based on various gaming technologies,
+                such as PC, Android, iPhone, iPad and Mac computers.
+                Our products have several advantages over the competition.
+                The first of these is the fact that our products are
+                run on a mix of hardware, software and cloud,
+                while many players in the gaming industry
+                online have chosen to use proprietary gaming software.
+                Unlike these players, our gaming platforms
+                use mobile devices and cloud storage,
+                and we operate on a subscription-based model.</p>
+              
+    </div>
+    
+    <!--Pie-->
+    
+    <div class = "footer">
+              <p class="texto-f">Thanks for viewing the website.</p>
+                    <div class="miembros">
+                      <p class="mi-j">Jesus Valencia</p>
+                      <p class="mi-m">Mario Castillo</p>
+                      <p class="mi-a">Adrian Aparicio</p>
+                    </div>
+    </div>
+    
+</body>
+</html>
